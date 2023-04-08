@@ -14,7 +14,9 @@ class Home extends BaseController
 
         echo $dd . "<br>";
 
-        echo "코드이그나이터4d입니다.. git을 pull 하는 사람은 지워주시길 바랍니다.. ";
+        echo "코드이그나이터4d입니다.. git을 pull 하는 사람은 지워주시길 바랍니다.. <br> ";
+
+        echo "--- end ---";
 
         return view('welcome_message');
     }
